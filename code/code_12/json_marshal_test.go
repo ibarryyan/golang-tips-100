@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"testing"
+
+	"google.golang.org/protobuf/proto"
 )
 
 func TestJSONMarshal(t *testing.T) {
@@ -30,13 +32,13 @@ func TestProtoMarshal(t *testing.T) {
 		Address: &UserInfo_HomeAddr{HomeAddr: "Beijing"},
 	}
 
-	marshal, _ := proto.Marshal(u)
+	marshal, _ := proto.Marshal(&u)
 
 	fmt.Println(string(marshal))
 
 	var u2 UserInfo
 
-	_ = proto.Unmarshal(marshal, u2)
+	_ = proto.Unmarshal(marshal, &u2)
 
 	fmt.Println(u2)
 }

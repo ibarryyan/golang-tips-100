@@ -1,4 +1,4 @@
-package code_12
+package main
 
 import (
 	"fmt"
