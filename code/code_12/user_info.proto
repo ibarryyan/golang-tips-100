@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "/code_12";
+
+package cmd;
+
+message UserInfo {
+    string name = 1;
+    oneof address {
+        string school_addr = 2;
+        string home_addr = 3;
+    }
+}
+
