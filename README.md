@@ -1,16 +1,18 @@
 ## 《Go小技巧&易错点100例》专栏代码
 
-![image-20231112185924824](README.assets/image-20231112185924824.png)
+![image-20231112185924824](img/image-20231112185924824.png)
 
-Hello，欢迎各位提交issue~
+#### 专栏介绍
+
+《Go小技巧&易错点100例》博客专栏，主要是总结一下自己Coding过程中遇到的问题以及平时读一些博客的所得，因为做gopher也有了一段时间了，相比Java，有些问题想要利用搜索引擎排查出来可能不是那么的迅速，所以在这里以文章的形式总结出来，也方便各位gopher们能够顺利的解决所遇到的问题，并能够习得一些小技巧。
 
 #### 专栏大纲
 
-![image-20231112190005980](README.assets/image-20231112190005980.png)
+![image-20231112190005980](img/Go小技巧&易错点100例专栏.jpg)
 
 #### 关注公众号获取最新更新
 
-![image-20231112190005980](README.assets/wechat.jpg)
+![image-20231112190005980](img/wechat.jpg)
 
 #### 更新进度
 
@@ -32,7 +34,8 @@ Hello，欢迎各位提交issue~
 | [《Go小技巧&易错点100例》第十三篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486035&idx=1&sn=fc5570fb9cd3726cbca24330135c3f90&chksm=97a3c7bea0d44ea86884de45f9b08a0d3702d6a3b8f47db80200cdd000b623771233e1a7dda1#rd) | 2023-4-1 周一 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_13) |
 | DOING | | |
 
+#### 捐赠
 
-
+![image-20231112190005980](img/wxds.png)
 
 
