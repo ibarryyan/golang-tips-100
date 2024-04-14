@@ -32,6 +32,7 @@
 | [《Go小技巧&易错点100例》第十一篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247485631&idx=1&sn=947fcd1308b469ab6a91ebba36e8dfc1&chksm=97a3c552a0d44c44ce63df8a55402c55711e073682b428d209e21fe401a4fe4301f1b79fc9bc#rd) | 2024-2-24 周六 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_11) |
 | [《Go小技巧&易错点100例》第十二篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247485864&idx=1&sn=ed7b74e37eff86624d38ec018426e6e8&chksm=97a3c445a0d44d532a8863cadc65d3c636974dc9c2eee76692ac189a36e52d5aa64abab68e27#rd) | 2024-3-2 周六 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_12) |
 | [《Go小技巧&易错点100例》第十三篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486035&idx=1&sn=fc5570fb9cd3726cbca24330135c3f90&chksm=97a3c7bea0d44ea86884de45f9b08a0d3702d6a3b8f47db80200cdd000b623771233e1a7dda1#rd) | 2024-4-1 周一 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_13) |
+| [《Go小技巧&易错点100例》第十四篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486075&idx=1&sn=47ca00c91c513dfcbfeceb6712c87d6a&chksm=97a3c796a0d44e80c1961cd90572e3c4a8b34db33b3022c873fcee3e73ddc4cdd8682e4b4f0f#rd) | 2024-4-11 周四 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_14) |
 | DOING | | |
 
 #### 捐赠
