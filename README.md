@@ -1,7 +1,7 @@
 ## 《Go小技巧&易错点100例》
 
-[![](https://img.shields.io/github/watchers/PKUanonym/REKCARC-TSC-UHT.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/watchers)
-[![](https://img.shields.io/github/stars/PKUanonym/REKCARC-TSC-UHT.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/stargazers)
+[![](https://img.shields.io/github/watchers/ibarryyan/golang-tips-100.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/watchers)
+[![](https://img.shields.io/github/stars/ibarryyan/golang-tips-100.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/stargazers)
 
 ![image-20231112185924824](img/logo.png)
 
