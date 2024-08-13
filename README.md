@@ -1,4 +1,7 @@
-## 《Go小技巧&易错点100例》专栏代码
+## 《Go小技巧&易错点100例》
+
+[![](https://img.shields.io/github/watchers/PKUanonym/REKCARC-TSC-UHT.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/watchers)
+[![](https://img.shields.io/github/stars/PKUanonym/REKCARC-TSC-UHT.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/stargazers)
 
 ![image-20231112185924824](img/logo.png)
 
