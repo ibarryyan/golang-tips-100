@@ -46,6 +46,7 @@ https://www.processon.com/view/link/66913a1de7d7970dad42d812
 | [《Go小技巧&易错点100例》第十七篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486758&idx=1&sn=e430a3f037aa926acfad8037d28434b2&chksm=97a3c0cba0d449dd6bd626a5707f32fe2a3f6e8652ccb2b8db49539389a7208da115c6b51571#rd) | 2024-5-19 周六 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_17) | 49 |
 | [《Go小技巧&易错点100例》第十八篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487042&idx=1&sn=4811102b28eae8c8c9c88ac2e86ba97d&chksm=97a3c3afa0d44ab96b57a435a49c473afb867b83d125c4662fe8f808548b0d3cc96eaf6e46eb#rd) | 2024-6-17 周一 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_18) | 52 |
 | [《Go小技巧&易错点100例》第十九篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487204&idx=1&sn=7bf189222e5ccb10b89d7da50de10714&chksm=97a3c309a0d44a1fb1212ae0aadbf2288d0bdc475cfa25c9db65e4589b5fc8b208fdf60f0e02#rd) | 2024-7-14 周一 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_19) | 53 |
+| [《Go小技巧&易错点100例》第二十篇](https://mp.weixin.qq.com/s/X02cUHcv8MtBfMYWrmuoqw) | 2024-8-15 周四| [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_20)   | 56  |
 | DOING | | | |
 
 #### 其他Go语言相关博客
