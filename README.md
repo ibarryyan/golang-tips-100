@@ -10,9 +10,13 @@
 
 《Go小技巧&易错点100例》博客专栏，主要是总结一下自己Coding过程中遇到的问题以及平时读一些博客的所得，因为做gopher也有了一段时间了，相比Java，有些问题想要利用搜索引擎排查出来可能不是那么的迅速，所以在这里以文章的形式总结出来，也方便各位gopher们能够顺利的解决所遇到的问题，并能够习得一些小技巧。
 
+---
+
 #### 专栏大纲（后面的括号内的数字为所在文章的序号）
 
 ![image-20231112190005980](img/main3.jpg)
+
+---
 
 **思维导图在线地址**：
 
@@ -49,6 +53,8 @@ https://www.processon.com/view/link/66913a1de7d7970dad42d812
 | [《Go小技巧&易错点100例》第二十篇](https://mp.weixin.qq.com/s/X02cUHcv8MtBfMYWrmuoqw) | 2024-8-15 周四| [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_20)   | 56  |
 | DOING | | | |
 
+---
+
 #### 其他Go语言相关博客
 
 ##### 基础知识
@@ -69,8 +75,9 @@ https://www.processon.com/view/link/66913a1de7d7970dad42d812
 
 - [听说它可以让代码更优雅](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487332&idx=1&sn=e6bbe038d919af24dea28b6c19a250b6&chksm=97a3c289a0d44b9fb3f7b4353e320e33e8226c13953582ffda5cf2226cdb96efc74ccce51cae#rd)
 
+---
 
-#### 捐赠
+#### 请作者喝杯咖啡
 
 ![image-20231112190005980](img/wxds.png)
 
