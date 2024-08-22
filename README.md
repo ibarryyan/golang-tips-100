@@ -14,13 +14,11 @@
 
 #### 专栏大纲（后面的括号内的数字为所在文章的序号）
 
+> **在线地址**：https://www.processon.com/view/link/66913a1de7d7970dad42d812
+
 ![image-20231112190005980](img/main3.jpg)
 
 ---
-
-**思维导图在线地址**：
-
-https://www.processon.com/view/link/66913a1de7d7970dad42d812
 
 #### 关注公众号获取最新更新
 
