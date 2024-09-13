@@ -50,6 +50,7 @@
 | [《Go小技巧&易错点100例》第十九篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487204&idx=1&sn=7bf189222e5ccb10b89d7da50de10714&chksm=97a3c309a0d44a1fb1212ae0aadbf2288d0bdc475cfa25c9db65e4589b5fc8b208fdf60f0e02#rd) | 52.goto语法和label的使用                                     | 2024-7-14 周一  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_19) | 52       |
 | [《Go小技巧&易错点100例》第二十篇](https://mp.weixin.qq.com/s/X02cUHcv8MtBfMYWrmuoqw) | 53.使用slice和map的内置函数<br />54.避免不必要的类型转换<br />55.优雅的字符串拼接方式 | 2024-8-15 周四  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_20) | 55       |
 | [《Go小技巧&易错点100例》第二十一篇](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487559&idx=1&sn=de4eab08828a71e7d0344b63759eaf21&chksm=97a3ddaaa0d454bcc2088faa1473be59d6d7ce57b9d27659b33f1b454d73cb9e3e4c795e7cad#rd) | 56.`errors.Is`方法与`==`两种方式进行`error`比较<br />57.带缓冲channel和无缓冲channel区别<br />58.defer func() 函数返回值 | 2024-8-27 周二  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_21) | 58       |
+| [《Go小技巧&易错点100例》第二十二篇](https://mp.weixin.qq.com/s/aGMyTg7HAstfrG5O9h_xjA) | 59.Go有符号类型和无符号类型<br />60.Go数组和切片<br/>61.Go结构体类型比较 | 2024-9-11 周三  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_22) | 61       |
 | DOING                                                        |                                                              |                 |                                                             |          |
 
 ---
