@@ -85,6 +85,8 @@
 
 - [搞懂策略模式和模板方法模式](https://mp.weixin.qq.com/s/8P_-KFSJvNtnkNSTx3DgAQ)
 
+- [浅谈Go语言Optional模式和Builder模式](https://mp.weixin.qq.com/s/dGqaYg1TRhII6jytsfF1Vg)
+
 ##### 项目实践
 
 - [带你用Go实现二维码小游戏（上）](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487822&idx=1&sn=f56e87f5a0b7b9da8d0d1c3680586217&chksm=97a3dca3a0d455b5a25666ce75be69409feeedd165fb363456e70d7a7487ab50d59de41ef53a#rd)
@@ -92,6 +94,8 @@
 - [带你用Go实现二维码小游戏（中）](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487835&idx=1&sn=2dbb73c69242602f75573bbe14535fd6&chksm=97a3dcb6a0d455a0e872bb1d417d33fed433d235ad506c49eaa0a7a57c7541d57fc0e1eda58a#rd)
 
 - [带你用Go实现二维码小游戏（下）](https://mp.weixin.qq.com/s/D5mDlqWnnoJruVZbq2e2SQ)
+
+- [带你用Go实现二维码小游戏（优化篇）](https://mp.weixin.qq.com/s/jWe49UJckujsQntZ_il2jg)
 
 ---
 
