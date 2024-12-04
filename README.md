@@ -97,6 +97,10 @@
 
 - [带你用Go实现二维码小游戏（优化篇）](https://mp.weixin.qq.com/s/jWe49UJckujsQntZ_il2jg)
 
+- [带你用Go实现二维码小游戏（扩展篇）](https://mp.weixin.qq.com/s/88UJQ3s1b-_rajWbDiAFoA)
+
+- [手撸了一个文件传输工具](https://mp.weixin.qq.com/s/TX6HnIX8L_ubYDQf48SFtA)
+
 ---
 
 #### 请作者喝杯咖啡
