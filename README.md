@@ -73,6 +73,8 @@
 
 - [原来go build命令有这么多学问](https://mp.weixin.qq.com/s/GiT6S-TSouTLZVBkftswuQ)
 
+- [Go程序最多能创建多少个协程？](https://mp.weixin.qq.com/s/4c_6R4AEpg-9O_yrG1eyTg)
+
 ##### 框架技术
 
 - [WebSocket原来还能这么玩](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486120&idx=1&sn=7ae6a6cc6e14e588d76d3f92ef75fe0c&chksm=97a3c745a0d44e53f1c5e286ef9b3b4d8e0480595f5e78b57f30ecc8dad6395573475518671f#rd)
@@ -103,8 +105,16 @@
 
 - [手撸了一个文件传输工具](https://mp.weixin.qq.com/s/TX6HnIX8L_ubYDQf48SFtA)
 
+- [手撸了一个文件传输工具（优化篇）](https://mp.weixin.qq.com/s/UlPcdmCyAmXBuxUA6O_Ayw)
+
 ---
 
 #### 请作者喝杯咖啡
 
 ![image-20231112190005980](img/wxds.png)
+
+#### 其他开源项目
+
+- https://github.com/ibarryyan/FTransferor
+
+- https://github.com/ibarryyan/QR-code-go
