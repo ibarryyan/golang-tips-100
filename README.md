@@ -123,4 +123,4 @@
 
 #### 致谢
 
-感谢[JetBrains](www.jetbrains.com)提供的IDE支持
+感谢[JetBrains](https://www.jetbrains.com)提供的IDE支持
