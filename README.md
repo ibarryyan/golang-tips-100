@@ -120,3 +120,7 @@
 - https://github.com/ibarryyan/FTransferor
 
 - https://github.com/ibarryyan/QR-code-go
+
+#### 致谢
+
+感谢[JetBrains](www.jetbrains.com)提供的IDE支持
