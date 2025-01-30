@@ -77,58 +77,66 @@
 ### Go基础知识
 
 
-| 文章                                                                                                                                                                                                                           | 关键词 | 难度 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ---- |
-| [浅谈Go语言内存模型](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486736&idx=1&sn=963f0ae34cbd2a10d66670e387654a81&chksm=97a3c0fda0d449eb4b850f60b444150c5d90d4111ad87b8301d89720a7a33f5ef99b915f4057#rd)         |        |      |
-| [Go错误处理方式真的不好吗？](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247485136&idx=1&sn=e27084c6d00697ef35e20922e3aaec02&chksm=97a3cb3da0d4422b30bfef8a0f0502e60a1b6f54270d27da7602323bf18798e9ba68db8fd4c2#rd) |        |      |
-| [莫非这就是Go最佳协程池](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487266&idx=1&sn=fcdf02e4962ff1398a721ef3208a75e9&chksm=97a3c2cfa0d44bd9e9be7e426ef3f029e655e656468515123739849c5137c2d79b9c0dd4838b#rd)     |        |      |
-| [原来go build命令有这么多学问](https://mp.weixin.qq.com/s/GiT6S-TSouTLZVBkftswuQ)                                                                                                                                              |        |      |
-| [Go程序最多能创建多少个协程？](https://mp.weixin.qq.com/s/4c_6R4AEpg-9O_yrG1eyTg)                                                                                                                                              |        |      |
-| [搞懂Go泛型，看这一篇就够了](https://mp.weixin.qq.com/s/ASF7WcMstmc_681heK1nfQ)                                                                                                                                                |        |      |
-| [搞懂策略模式和模板方法模式](https://mp.weixin.qq.com/s/8P_-KFSJvNtnkNSTx3DgAQ)                                                                                                                                                |        |      |
-| [浅谈Go语言Optional模式和Builder模式](https://mp.weixin.qq.com/s/dGqaYg1TRhII6jytsfF1Vg)                                                                                                                                       |        |      |
+| 文章                                                                                                                                                                                                                           | 关键词                            | 难度   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- | ------ |
+| [浅谈Go语言内存模型](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486736&idx=1&sn=963f0ae34cbd2a10d66670e387654a81&chksm=97a3c0fda0d449eb4b850f60b444150c5d90d4111ad87b8301d89720a7a33f5ef99b915f4057#rd)         | Go内存模型、goroutine             | ⭐⭐   |
+| [Go错误处理方式真的不好吗？](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247485136&idx=1&sn=e27084c6d00697ef35e20922e3aaec02&chksm=97a3cb3da0d4422b30bfef8a0f0502e60a1b6f54270d27da7602323bf18798e9ba68db8fd4c2#rd) | 错误处理                          | ⭐⭐   |
+| [莫非这就是Go最佳协程池](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487266&idx=1&sn=fcdf02e4962ff1398a721ef3208a75e9&chksm=97a3c2cfa0d44bd9e9be7e426ef3f029e655e656468515123739849c5137c2d79b9c0dd4838b#rd)     | goroutine、池化思想               | ⭐⭐   |
+| [原来go build命令有这么多学问](https://mp.weixin.qq.com/s/GiT6S-TSouTLZVBkftswuQ)                                                                                                                                              | 编译原理                          | ⭐⭐   |
+| [Go程序最多能创建多少个协程？](https://mp.weixin.qq.com/s/4c_6R4AEpg-9O_yrG1eyTg)                                                                                                                                              | goroutine的销毁、线程、内存、协程 | ⭐⭐⭐ |
+| [搞懂Go泛型，看这一篇就够了](https://mp.weixin.qq.com/s/ASF7WcMstmc_681heK1nfQ)                                                                                                                                                | 泛型                              | ⭐⭐   |
+| [搞懂策略模式和模板方法模式](https://mp.weixin.qq.com/s/8P_-KFSJvNtnkNSTx3DgAQ)                                                                                                                                                | 策略模式、模板方法模式            | ⭐     |
+| [浅谈Go语言Optional模式和Builder模式](https://mp.weixin.qq.com/s/dGqaYg1TRhII6jytsfF1Vg)                                                                                                                                       | Optional模式、Builder模式         | ⭐     |
+| [函数式编程能有多优雅？](https://mp.weixin.qq.com/s/fj3G8oOBekrxx6CY371oAA)                                                                                                                                       | 函数式编程         | ⭐⭐     |
+| [为什么说组合优于继承？](https://mp.weixin.qq.com/s/dlR31hpNYX2KjjJ5_lrcug)                                                                                                                                       | 面向对象         | ⭐⭐     |
+| [浅谈Go语言深拷贝与浅拷贝](https://mp.weixin.qq.com/s/p5Nf3zltKlXA7oFw-2ToaQ)                                                                                                                                       | 面向对象         | ⭐⭐     |
 
 ---
 
 ### Go框架技术
 
 
-| 文章                                                                                                                                                                                                                        | 关键词 | 难度 |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- |
-| [WebSocket原来还能这么玩](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486120&idx=1&sn=7ae6a6cc6e14e588d76d3f92ef75fe0c&chksm=97a3c745a0d44e53f1c5e286ef9b3b4d8e0480595f5e78b57f30ecc8dad6395573475518671f#rd) |        |      |
-| [浅谈一下etcd的Watch机制](https://mp.weixin.qq.com/s/6l6OymkNz_wxBOSsvomiZA)                                                                                                                                                |        |      |
+| 文章                                                                                                                                                                                                                        | 关键词          | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ---- |
+| [WebSocket原来还能这么玩](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486120&idx=1&sn=7ae6a6cc6e14e588d76d3f92ef75fe0c&chksm=97a3c745a0d44e53f1c5e286ef9b3b4d8e0480595f5e78b57f30ecc8dad6395573475518671f#rd) | WebSocket       | ⭐⭐ |
+| [浅谈一下etcd的Watch机制](https://mp.weixin.qq.com/s/6l6OymkNz_wxBOSsvomiZA)                                                                                                                                                | etcd、Watch机制 | ⭐⭐ |
 
 ---
 
 ### Go工具使用
 
 
-| 文章                                                                                                                                                                                                                          | 关键词 | 难度 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- |
-| [Go程序出问题了？有pprof！](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486824&idx=1&sn=b536c61525ad422592eee9d57796aef6&chksm=97a3c085a0d4499309e0d6d85ca4c562cf1a98cf114bb5330470fdc2b86d7dbccebb1d56ac3c#rd) |        |      |
-| [听说它可以让代码更优雅](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487332&idx=1&sn=e6bbe038d919af24dea28b6c19a250b6&chksm=97a3c289a0d44b9fb3f7b4353e320e33e8226c13953582ffda5cf2226cdb96efc74ccce51cae#rd)    |        |      |
+| 文章                                                                                                                                                                                                                          | 关键词   | 难度   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ |
+| [Go程序出问题了？有pprof！](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486824&idx=1&sn=b536c61525ad422592eee9d57796aef6&chksm=97a3c085a0d4499309e0d6d85ca4c562cf1a98cf114bb5330470fdc2b86d7dbccebb1d56ac3c#rd) | pprof    | ⭐⭐⭐ |
+| [听说它可以让代码更优雅](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247487332&idx=1&sn=e6bbe038d919af24dea28b6c19a250b6&chksm=97a3c289a0d44b9fb3f7b4353e320e33e8226c13953582ffda5cf2226cdb96efc74ccce51cae#rd)    | 静态检查 | ⭐⭐   |
 
 ---
 
 ### Go项目实践
 
-| 项目 | 技术点 | 难度 |
-| ---- | ---- | ---- |
-|  Go二维码小游戏     |      |      |
-|  文件传输工具    |      |      |
-|  SDK Demo    |      |      |
-|  Beego RequestId 中间件  |      |      |
+
+| 项目                   | 技术点 | 难度 |
+| ---------------------- | ------ | ---- |
+| [Go二维码小游戏](project/qrcode-go.md)         | 二维码生成   | ⭐⭐ |
+| [文件传输工具](project/ftransferor.md)           | TCP、哈希计算   | ⭐⭐ |
+| [SDK Demo](project/http-sdk.md)               |  SDK设计、HTTP      | ⭐   |
+| [Beego RequestId 中间件](project/beego-request-id.md) | Beego  | ⭐   |
+| [Github OAuth Demo](project/oauth-demo.md) | OAuth2.0  | ⭐   |
 
 ---
 
 ### Go与各种三方工具集成
 
-| 类别 | 集成工具 | Demo |评分 |
-| ---- | ---- | ---- |---- |
-| DB     |      |      |     |
-| MQ     |      |      |     |
-| Cache     |      |      |     |
-|      |      |      |     |
+TODO
+
+
+| 类别  | 集成工具 | Demo | 评分 |
+| ----- | -------- | ---- | ---- |
+| DB    |          |      |      |
+| MQ    |          |      |      |
+| Cache |          |      |      |
+|       |          |      |      |
 
 ---
 
