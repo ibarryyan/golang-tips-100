@@ -12,8 +12,6 @@
 
 #### 目录
 
-[Golang Tips 100](#Golang Tips 100)
-
 [Go基础知识](#Go基础知识)
 
 [Go框架技术](#Go框架技术)
