@@ -121,14 +121,46 @@
 
 ### Go与各种三方工具集成
 
-TODO
+以下是一个更全面的表格，补充了更多类别和工具集成，涵盖Go语言在开发中常用的三方工具和库：
 
-| 类别    | 集成工具 | Demo | 评分  |
-| ----- | ---- | ---- | --- |
-| DB    |      |      |     |
-| MQ    |      |      |     |
-| Cache |      |      |     |
-|       |      |      |     |
+| **类别**            | **集成工具**                                                                 | **Demo**                                                                 | **评分** |
+|---------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------|
+| **MySQL**           | [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)                | [Demo](https://github.com/go-sql-driver/mysql#usage)                     | ⭐⭐⭐⭐⭐   |
+| **PostgreSQL**      | [lib/pq](https://github.com/lib/pq)                                          | [Demo](https://github.com/lib/pq#examples)                               | ⭐⭐⭐⭐    |
+| **Redis**           | [go-redis/redis](https://github.com/go-redis/redis)                          | [Demo](https://github.com/go-redis/redis#quickstart)                     | ⭐⭐⭐⭐⭐   |
+| **MongoDB**         | [mongodb/mongo-go-driver](https://github.com/mongodb/mongo-go-driver)        | [Demo](https://github.com/mongodb/mongo-go-driver#usage)                 | ⭐⭐⭐⭐    |
+| **Kafka**           | [segmentio/kafka-go](https://github.com/segmentio/kafka-go)                  | [Demo](https://github.com/segmentio/kafka-go#examples)                   | ⭐⭐⭐⭐    |
+| **Elasticsearch**   | [olivere/elastic](https://github.com/olivere/elastic)                       | [Demo](https://github.com/olivere/elastic#examples)                      | ⭐⭐⭐⭐    |
+| **gRPC**            | [grpc/grpc-go](https://github.com/grpc/grpc-go)                              | [Demo](https://github.com/grpc/grpc-go#examples)                         | ⭐⭐⭐⭐⭐   |
+| **GraphQL**         | [graphql-go/graphql](https://github.com/graphql-go/graphql)                  | [Demo](https://github.com/graphql-go/graphql#examples)                   | ⭐⭐⭐⭐    |
+| **Prometheus**      | [prometheus/client_golang](https://github.com/prometheus/client_golang)      | [Demo](https://github.com/prometheus/client_golang#instrumenting-a-code) | ⭐⭐⭐⭐⭐   |
+| **Logging**         | [sirupsen/logrus](https://github.com/sirupsen/logrus)                        | [Demo](https://github.com/sirupsen/logrus#example)                       | ⭐⭐⭐⭐⭐   |
+| **ORM**             | [go-gorm/gorm](https://github.com/go-gorm/gorm)                              | [Demo](https://github.com/go-gorm/gorm#quick-start)                      | ⭐⭐⭐⭐⭐   |
+| **Web框架**         | [gin-gonic/gin](https://github.com/gin-gonic/gin)                            | [Demo](https://github.com/gin-gonic/gin#quick-start)                     | ⭐⭐⭐⭐⭐   |
+| **WebSocket**       | [gorilla/websocket](https://github.com/gorilla/websocket)                    | [Demo](https://github.com/gorilla/websocket#examples)                    | ⭐⭐⭐⭐    |
+| **HTTP客户端**      | [go-resty/resty](https://github.com/go-resty/resty)                          | [Demo](https://github.com/go-resty/resty#usage)                          | ⭐⭐⭐⭐⭐   |
+| **配置管理**        | [spf13/viper](https://github.com/spf13/viper)                                | [Demo](https://github.com/spf13/viper#putting-values-into-viper)         | ⭐⭐⭐⭐⭐   |
+| **任务调度**        | [robfig/cron](https://github.com/robfig/cron)                                | [Demo](https://github.com/robfig/cron#example)                           | ⭐⭐⭐⭐    |
+| **测试框架**        | [stretchr/testify](https://github.com/stretchr/testify)                      | [Demo](https://github.com/stretchr/testify#assert-package)               | ⭐⭐⭐⭐⭐   |
+| **CI/CD**           | [go-cmd/cmd](https://github.com/go-cmd/cmd)                                  | [Demo](https://github.com/go-cmd/cmd#examples)                           | ⭐⭐⭐⭐    |
+| **消息队列**        | [nsqio/go-nsq](https://github.com/nsqio/go-nsq)                              | [Demo](https://github.com/nsqio/go-nsq#usage)                            | ⭐⭐⭐⭐    |
+| **文件存储**        | [minio/minio-go](https://github.com/minio/minio-go)                          | [Demo](https://github.com/minio/minio-go#quick-start)                    | ⭐⭐⭐⭐    |
+| **缓存**            | [patrickmn/go-cache](https://github.com/patrickmn/go-cache)                  | [Demo](https://github.com/patrickmn/go-cache#example-usage)              | ⭐⭐⭐⭐    |
+| **API文档生成**     | [swaggo/swag](https://github.com/swaggo/swag)                                | [Demo](https://github.com/swaggo/swag#declarative-comments-format)       | ⭐⭐⭐⭐⭐   |
+| **分布式锁**        | [go-redsync/redsync](https://github.com/go-redsync/redsync)                  | [Demo](https://github.com/go-redsync/redsync#usage)                      | ⭐⭐⭐⭐    |
+| **对象存储**        | [aws/aws-sdk-go](https://github.com/aws/aws-sdk-go)                          | [Demo](https://github.com/aws/aws-sdk-go#usage)                          | ⭐⭐⭐⭐⭐   |
+| **模板引擎**        | [golang/go](https://golang.org/pkg/text/template/)                           | [Demo](https://golang.org/pkg/text/template/#pkg-examples)               | ⭐⭐⭐⭐    |
+| **命令行工具**      | [spf13/cobra](https://github.com/spf13/cobra)                                | [Demo](https://github.com/spf13/cobra#usage)                             | ⭐⭐⭐⭐⭐   |
+| **数据验证**        | [go-playground/validator](https://github.com/go-playground/validator)        | [Demo](https://github.com/go-playground/validator#usage-and-examples)    | ⭐⭐⭐⭐⭐   |
+| **分布式追踪**      | [opentracing/opentracing-go](https://github.com/opentracing/opentracing-go)  | [Demo](https://github.com/opentracing/opentracing-go#tracing-a-function) | ⭐⭐⭐⭐    |
+| **并发控制**        | [panjf2000/ants](https://github.com/panjf2000/ants)                          | [Demo](https://github.com/panjf2000/ants#quick-start)                    | ⭐⭐⭐⭐    |
+| **文件监控**        | [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify)                    | [Demo](https://github.com/fsnotify/fsnotify#example)                     | ⭐⭐⭐⭐    |
+| **加密与安全**      | [golang/crypto](https://github.com/golang/crypto)                            | [Demo](https://github.com/golang/crypto#examples)                        | ⭐⭐⭐⭐⭐   |
+| **国际化**          | [nicksnyder/go-i18n](https://github.com/nicksnyder/go-i18n)                  | [Demo](https://github.com/nicksnyder/go-i18n#usage)                      | ⭐⭐⭐⭐    |
+| **数据序列化**      | [json-iterator/go](https://github.com/json-iterator/go)                      | [Demo](https://github.com/json-iterator/go#usage)                        | ⭐⭐⭐⭐⭐   |
+| **HTTP路由**        | [gorilla/mux](https://github.com/gorilla/mux)                                | [Demo](https://github.com/gorilla/mux#examples)                          | ⭐⭐⭐⭐⭐   |
+| **机器学习**        | [gorgonia/gorgonia](https://github.com/gorgonia/gorgonia)                    | [Demo](https://github.com/gorgonia/gorgonia#quick-start)                 | ⭐⭐⭐⭐    |
+| **区块链**          | [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)              | [Demo](https://github.com/ethereum/go-ethereum#quick-start)              | ⭐⭐⭐⭐    |
 
 ---
 
