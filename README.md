@@ -87,6 +87,7 @@
 | [函数式编程能有多优雅？](https://mp.weixin.qq.com/s/fj3G8oOBekrxx6CY371oAA)                                                                                                                                                   | 函数式编程                 | ⭐⭐  |
 | [为什么说组合优于继承？](https://mp.weixin.qq.com/s/dlR31hpNYX2KjjJ5_lrcug)                                                                                                                                                   | 面向对象                  | ⭐⭐  |
 | [浅谈Go语言深拷贝与浅拷贝](https://mp.weixin.qq.com/s/p5Nf3zltKlXA7oFw-2ToaQ)                                                                                                                                                 | 面向对象                  | ⭐⭐  |
+| [快来看！你的Go代码还能更优雅](https://mp.weixin.qq.com/s/79B0ez6eGfTwaZWvh0-JcA)                                                                                                                                                 | 面向对象                  | ⭐⭐  |
 
 ---
 
