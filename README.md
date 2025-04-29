@@ -66,9 +66,10 @@
 | [第二十八篇](https://mp.weixin.qq.com/s/9zdsKi44uHXZ0HPSuJW9Ww)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_28) | 75.runtime.Caller(1)获取调用者信息<br/>76.for循环 + select{}语法<br/>`关键词：函数调用栈、select{}`                                  | 2   | ⭐⭐⭐ |
 | [第二十九篇](https://mp.weixin.qq.com/s/cgjk4zxBeTLUbgL3n2yJqA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_29) | 77.可变类型比较<br/>78.Slice 最大值与最小值<br/>79.Map 转换为 Slice<br/>80.Map 合并<br/>`关键词：新版内置函数`               | 3   | ⭐⭐  |
 | [第三十篇](https://mp.weixin.qq.com/s/gpDDtAd_1lXmCMpXMqgNyw)                                                                                                                                                 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_30) | 81.切片共享底层数组<br/>82.获取Go函数的注释<br/>`关键词：抽象语法树、slice`                                                         | 2   | ⭐⭐⭐ |
+| [第三十一篇](https://mp.weixin.qq.com/s/SaQcPRgtpXOzkCrLZDtF1g)                                                                                                                                                 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_31) | 83.Go struct内存对齐<br/>84.使用空结构体(struct{})节省内存<br/>`关键词：内存对齐、空struct{}`                                                         | 2   | ⭐⭐⭐ |
 | DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                 |     |     |
 
-Total：82
+Total：84
 
 ---
 
