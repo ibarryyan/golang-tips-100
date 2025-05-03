@@ -4,9 +4,9 @@
 [![](https://img.shields.io/github/watchers/ibarryyan/golang-tips-100.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/watchers)
 [![](https://img.shields.io/github/stars/ibarryyan/golang-tips-100.svg?style=flat)](https://github.com/ibarryyan/golang-tips-100/stargazers)
 
-**《Go小技巧&易错点100例》** 博客专栏，主要是总结一下自己Coding过程中遇到的问题以及平时读一些博客的所得，因为做Gopher也有了一段时间了，相比Java，有些问题想要利用搜索引擎排查出来可能不是那么的迅速，所以在这里以文章的形式总结出来，也方便各位Gopher们能够顺利的解决所遇到的问题，并能够习得一些小技巧。
-
 ![image-20231112185924824](img/logo.png)
+
+**《Go小技巧&易错点100例》** 博客专栏，主要是总结一下自己Coding过程中遇到的问题以及平时读一些博客的所得，因为做Gopher也有了一段时间了，相比Java，有些问题想要利用搜索引擎排查出来可能不是那么的迅速，所以在这里以文章的形式总结出来，也方便各位Gopher们能够顺利的解决所遇到的问题，并能够习得一些小技巧。
 
 ---
 
@@ -14,7 +14,11 @@
 
 ![image-20231112185924824](img/range.png)
 
-#### 目录
+**AI时代Go语言学习路线：**
+
+![loading-ag-2256](img/way.png)
+
+#### 专栏目录
 
 | Golang Tips                                               | Go基础知识                                 | Go框架技术                        | Go项目实践                                | Go优化实践                             |
 | --------------------------------------------------------- | -------------------------------------- | ----------------------------- | ------------------------------------- | ---------------------------------- |
@@ -64,10 +68,10 @@
 | [第二十六篇](https://mp.weixin.qq.com/s/7rA1nPan70Du3vQlEGrG8g)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_26) | 70.string转[]byte是否会发生内存拷贝<br/>71.Go程序获取文件的哈希值<br/>`关键词：string、文件哈希值`                                            | 2   | ⭐   |
 | [第二十七篇](https://mp.weixin.qq.com/s/59i5_CmzVr19U32t2Ht2_Q)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_27) | 72.Go语言中的Scan函数<br/>73.debug.Stack()打印堆栈信息<br/>74.Go条件编译<br/>`关键词：Scan函数、debug.Stack()、条件编译`                    | 3   | ⭐⭐⭐ |
 | [第二十八篇](https://mp.weixin.qq.com/s/9zdsKi44uHXZ0HPSuJW9Ww)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_28) | 75.runtime.Caller(1)获取调用者信息<br/>76.for循环 + select{}语法<br/>`关键词：函数调用栈、select{}`                                  | 2   | ⭐⭐⭐ |
-| [第二十九篇](https://mp.weixin.qq.com/s/cgjk4zxBeTLUbgL3n2yJqA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_29) | 77.可变类型比较<br/>78.Slice 最大值与最小值<br/>79.Map 转换为 Slice<br/>80.Map 合并<br/>`关键词：新版内置函数`               | 3   | ⭐⭐  |
-| [第三十篇](https://mp.weixin.qq.com/s/gpDDtAd_1lXmCMpXMqgNyw)                                                                                                                                                 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_30) | 81.切片共享底层数组<br/>82.获取Go函数的注释<br/>`关键词：抽象语法树、slice`                                                         | 2   | ⭐⭐⭐ |
-| [第三十一篇](https://mp.weixin.qq.com/s/SaQcPRgtpXOzkCrLZDtF1g)                                                                                                                                                 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_31) | 83.Go struct内存对齐<br/>84.使用空结构体(struct{})节省内存<br/>`关键词：内存对齐、空struct{}`                                                         | 2   | ⭐⭐⭐ |
-| [第三十二篇](https://mp.weixin.qq.com/s/ntn-m66mOODPUFnq9LRoiQ)                                                                                                                                                 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_32) | 85.sync.Map的原理和使用方式<br/>86.实现有序的Map<br/>`关键词：map`                                                         | 2   | ⭐⭐⭐ |
+| [第二十九篇](https://mp.weixin.qq.com/s/cgjk4zxBeTLUbgL3n2yJqA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_29) | 77.可变类型比较<br/>78.Slice 最大值与最小值<br/>79.Map 转换为 Slice<br/>80.Map 合并<br/>`关键词：新版内置函数`                              | 3   | ⭐⭐  |
+| [第三十篇](https://mp.weixin.qq.com/s/gpDDtAd_1lXmCMpXMqgNyw)                                                                                                                                                 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_30) | 81.切片共享底层数组<br/>82.获取Go函数的注释<br/>`关键词：抽象语法树、slice`                                                              | 2   | ⭐⭐⭐ |
+| [第三十一篇](https://mp.weixin.qq.com/s/SaQcPRgtpXOzkCrLZDtF1g)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_31) | 83.Go struct内存对齐<br/>84.使用空结构体(struct{})节省内存<br/>`关键词：内存对齐、空struct{}`                                           | 2   | ⭐⭐⭐ |
+| [第三十二篇](https://mp.weixin.qq.com/s/ntn-m66mOODPUFnq9LRoiQ)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_32) | 85.sync.Map的原理和使用方式<br/>86.实现有序的Map<br/>`关键词：map`                                                               | 2   | ⭐⭐⭐ |
 | DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                 |     |     |
 
 Total：86
@@ -102,7 +106,7 @@ Total：86
 
 **Go语言与框架（工具）集成的Demo**
 
-- **存储类**
+**1）存储类**
 
 | **类别**            | **集成工具**                                                              | **Demo**                                                    | **评分** |
 | ----------------- | --------------------------------------------------------------------- | ----------------------------------------------------------- | ------ |
@@ -119,7 +123,7 @@ Total：86
 | **对象存储**          | [aws/aws-sdk-go](https://github.com/aws/aws-sdk-go)                   | [Demo](https://github.com/aws/aws-sdk-go#usage)             | ⭐⭐⭐⭐⭐  |
 | **加密与安全**         | [golang/crypto](https://github.com/golang/crypto)                     | [Demo](https://github.com/golang/crypto#examples)           | ⭐⭐⭐⭐⭐  |
 
-- **Web与RPC框架**
+**2）Web与RPC框架**
 
 | **类别**        | **集成工具**                                                  | **Demo**                                                           | **评分** |
 | ------------- | --------------------------------------------------------- | ------------------------------------------------------------------ | ------ |
@@ -130,7 +134,7 @@ Total：86
 | **API文档生成**   | [swaggo/swag](https://github.com/swaggo/swag)             | [Demo](https://github.com/swaggo/swag#declarative-comments-format) | ⭐⭐⭐⭐⭐  |
 | **HTTP路由**    | [gorilla/mux](https://github.com/gorilla/mux)             | [Demo](https://github.com/gorilla/mux#examples)                    | ⭐⭐⭐⭐⭐  |
 
-- **消息类**
+**3）消息类**
 
 | **类别**      | **集成工具**                                                    | **Demo**                                               | **评分** |
 | ----------- | ----------------------------------------------------------- | ------------------------------------------------------ | ------ |
@@ -138,7 +142,7 @@ Total：86
 | **Logging** | [sirupsen/logrus](https://github.com/sirupsen/logrus)       | [Demo](https://github.com/sirupsen/logrus#example)     | ⭐⭐⭐⭐⭐  |
 | **消息队列**    | [nsqio/go-nsq](https://github.com/nsqio/go-nsq)             | [Demo](https://github.com/nsqio/go-nsq#usage)          | ⭐⭐⭐⭐   |
 
-- **其他**
+**4）其他**
 
 | **类别**            | **集成工具**                                                                    | **Demo**                                                                 | **评分** |
 | ----------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------ |
