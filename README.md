@@ -21,7 +21,7 @@
 
 ![image-20231112185924824](img/range.png)
 
-**AI时代Go语言学习路线：**
+**AI时代Go语言学习路线：**[博客链接](https://mp.weixin.qq.com/s/5x24Nhbxtjkcjv7xuJWPng)
 
 ![loading-ag-2256](img/way.png)
 
