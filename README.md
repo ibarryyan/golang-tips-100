@@ -33,6 +33,16 @@
 
 > **在线地址（更新到第30篇）**：[Go小技巧&易错点100例专栏](https://www.processon.com/view/link/66913a1de7d7970dad42d812)
 
+#### 订阅地址
+
+**CSDN**：[《Go语言小技巧&易错点100例》](https://blog.csdn.net/mr_yanmingxin/category_12232577.html)
+
+**微信公众号**：[Go小技巧&易错点100例](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=3180454570016030721)
+
+**扫码订阅**：
+
+![image-20231112190005980](img/link.png)
+
 #### 更新进度
 
 | 标题                                                                                                                                                                                                        | 代码                                                                            | 关键词                                                                                                             | 数量  | 难度  |
