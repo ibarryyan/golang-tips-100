@@ -84,6 +84,21 @@
 
 Total：86
 
+#### 同类内容分享
+
+[Go语言100个编程错误小抄](https://colobu.com/2023/07/18/cheatsheet-of-100-go-mistakes/)
+
+[Go语言编程技巧](https://github.com/smallnest/gotips)
+
+[Go语言编程技巧（网页版）](https://colobu.com/gotips/)
+
+[Go优化指南](https://github.com/astavonin/go-optimization-guide)
+
+[Go优化指南（网页版）](https://goperf.dev/)
+
+
+
+
 ---
 
 ### Go基础知识
