@@ -96,9 +96,6 @@ Total：86
 
 [Go优化指南（网页版）](https://goperf.dev/)
 
-
-
-
 ---
 
 ### Go基础知识
@@ -209,11 +206,15 @@ Total：86
 
 ![image-20231112190005980](img/wechat.jpg)
 
+有问题或建议可以提交[issue](https://github.com/ibarryyan/golang-tips-100/issues/new)，也可以微信公众号进行留言
+
 ---
 
 ### 请作者喝杯咖啡
 
 ![image-20231112190005980](img/wxds.png)
+
+---
 
 ### 致谢
 
