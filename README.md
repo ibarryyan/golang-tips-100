@@ -219,7 +219,3 @@ Total：86
 ### 致谢
 
 感谢[JetBrains](https://www.jetbrains.com)提供的IDE支持
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ibarryyan/golang-tips-100&type=Date)](https://star-history.com/#ibarryyan/golang-tips-100&Date)
