@@ -80,9 +80,10 @@
 | [第三十篇](https://mp.weixin.qq.com/s/gpDDtAd_1lXmCMpXMqgNyw)                                                                                                                                                 | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_30) | 81.切片共享底层数组<br/>82.获取Go函数的注释<br/>`关键词：抽象语法树、slice`                                                              | 2   | ⭐⭐⭐ |
 | [第三十一篇](https://mp.weixin.qq.com/s/SaQcPRgtpXOzkCrLZDtF1g)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_31) | 83.Go struct内存对齐<br/>84.使用空结构体(struct{})节省内存<br/>`关键词：内存对齐、空struct{}`                                           | 2   | ⭐⭐⭐ |
 | [第三十二篇](https://mp.weixin.qq.com/s/ntn-m66mOODPUFnq9LRoiQ)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_32) | 85.sync.Map的原理和使用方式<br/>86.实现有序的Map<br/>`关键词：map`                                                               | 2   | ⭐⭐⭐ |
+| [第三十三篇](https://mp.weixin.qq.com/s/4pDo0jomeF6GQPOx238EBA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_33) | 87.Validator自定义校验规则<br/>88.sync.Pool优化对象复用<br/>89.sync.WaitGroup的正确使用<br/>90.nil的语义陷阱<br/>`关键词：Validator、sync.Pool、sync.WaitGroup、nil的语义陷阱`                                                               | 4   | ⭐⭐⭐ |
 | DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                 |     |     |
 
-Total：86
+Total：90
 
 #### 同类内容分享
 
