@@ -19,7 +19,7 @@
 
 **Go语言最新排名**：[TIOBE](https://www.tiobe.com/tiobe-index/go/)
 
-![image-20231112185924824](img/range.png)
+![image-20231112185924824](img/rate.png)
 
 **AI时代Go语言学习路线：**[博客链接](https://mp.weixin.qq.com/s/5x24Nhbxtjkcjv7xuJWPng)
 
