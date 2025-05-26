@@ -81,9 +81,10 @@
 | [第三十一篇](https://mp.weixin.qq.com/s/SaQcPRgtpXOzkCrLZDtF1g)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_31) | 83.Go struct内存对齐<br/>84.使用空结构体(struct{})节省内存<br/>`关键词：内存对齐、空struct{}`                                           | 2   | ⭐⭐⭐ |
 | [第三十二篇](https://mp.weixin.qq.com/s/ntn-m66mOODPUFnq9LRoiQ)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_32) | 85.sync.Map的原理和使用方式<br/>86.实现有序的Map<br/>`关键词：map`                                                               | 2   | ⭐⭐⭐ |
 | [第三十三篇](https://mp.weixin.qq.com/s/4pDo0jomeF6GQPOx238EBA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_33) | 87.Validator自定义校验规则<br/>88.sync.Pool优化对象复用<br/>89.sync.WaitGroup的正确使用<br/>90.nil的语义陷阱<br/>`关键词：Validator、sync.Pool、sync.WaitGroup、nil的语义陷阱`                                                               | 4   | ⭐⭐⭐ |
+| [第三十四篇](https://mp.weixin.qq.com/s/M_DXP-nwvekq-0mxo2G-yA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_34) | 91.sync.Mutex锁复制导致的异常 <br/>92.Go堆栈机制下容易导致的并发问题  <br/>`关键词：sync.Mutex、锁复制、堆栈、goroutine`                                                               | 2   | ⭐⭐⭐ |
 | DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                 |     |     |
 
-Total：90
+Total：92
 
 #### 同类内容分享
 
