@@ -85,7 +85,7 @@
 | [第三十五篇](https://mp.weixin.qq.com/s/6RABbLbpgwHq6gRIiI3Xxw)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_35) | 93.循环依赖导致栈溢出 <br/>94.无法捕获子协程的panic  <br/>`关键词：循环依赖、堆栈、goroutine、panic`                                                               | 2   | ⭐⭐⭐ |
 | DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                 |     |     |
 
-Total：92
+Total：94
 
 #### 同类内容分享
 
@@ -117,6 +117,8 @@ Total：92
 | [为什么说组合优于继承？](https://mp.weixin.qq.com/s/dlR31hpNYX2KjjJ5_lrcug)                                                                                                                                                   | 面向对象                  | ⭐⭐  |
 | [浅谈Go语言深拷贝与浅拷贝](https://mp.weixin.qq.com/s/p5Nf3zltKlXA7oFw-2ToaQ)                                                                                                                                                 | 面向对象                  | ⭐⭐  |
 | [快来看！你的Go代码还能更优雅](https://mp.weixin.qq.com/s/79B0ez6eGfTwaZWvh0-JcA)                                                                                                                                               | 面向对象                  | ⭐⭐  |
+| [Go语言的Fan-In并发模式](https://mp.weixin.qq.com/s/Q55cAsyJkCA7mAJBPtUy8w)                                                                                                                                               | 并发                  | ⭐⭐  |
+| [一文搞懂Go语言垃圾回收机制](https://mp.weixin.qq.com/s/ic0i7RhLxYJ53M0e1XJBOw)                                                                                                                                               | 垃圾回收                  | ⭐⭐⭐  |
 
 ---
 
@@ -126,6 +128,7 @@ Total：92
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --- |
 | [WebSocket原来还能这么玩](https://mp.weixin.qq.com/s?__biz=MzIxNDc2ODc3MA==&mid=2247486120&idx=1&sn=7ae6a6cc6e14e588d76d3f92ef75fe0c&chksm=97a3c745a0d44e53f1c5e286ef9b3b4d8e0480595f5e78b57f30ecc8dad6395573475518671f#rd) | WebSocket    | ⭐⭐  |
 | [浅谈一下etcd的Watch机制](https://mp.weixin.qq.com/s/6l6OymkNz_wxBOSsvomiZA)                                                                                                                                                | etcd、Watch机制 | ⭐⭐  |
+| [搞懂gRPC支持HTTP进行双协议通信](https://mp.weixin.qq.com/s/eqxw9WliuxwXr2GnGZDKIw)                                                                                                                                                | etcd、Watch机制 | ⭐⭐  |
 
 **Go语言与框架（工具）集成的Demo**
 
@@ -202,6 +205,12 @@ Total：92
 | [SDK Demo](project/http-sdk.md)                    | SDK设计、HTTP | ⭐   |
 | [Beego RequestId 中间件](project/beego-request-id.md) | Beego      | ⭐   |
 | [Github OAuth Demo](project/oauth-demo.md)         | OAuth2.0   | ⭐   |
+
+---
+
+### 技术专栏
+
+- [《玩转gRPC框架》](https://blog.csdn.net/mr_yanmingxin/category_12172887.html)
 
 ---
 
