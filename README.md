@@ -25,6 +25,10 @@
 
 ![loading-ag-2256](img/way.png)
 
+相关学习资源：
+
+- [Learning-golang-2024](https://www.bytesizego.com/blog/learning-golang-2024)
+
 ### Golang Tips 100
 
 #### 专栏大纲
