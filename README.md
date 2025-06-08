@@ -87,9 +87,10 @@
 | [第三十三篇](https://mp.weixin.qq.com/s/4pDo0jomeF6GQPOx238EBA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_33) | 87.Validator自定义校验规则<br/>88.sync.Pool优化对象复用<br/>89.sync.WaitGroup的正确使用<br/>90.nil的语义陷阱<br/>`关键词：Validator、sync.Pool、sync.WaitGroup、nil的语义陷阱`                                                               | 4   | ⭐⭐⭐ |
 | [第三十四篇](https://mp.weixin.qq.com/s/M_DXP-nwvekq-0mxo2G-yA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_34) | 91.sync.Mutex锁复制导致的异常 <br/>92.Go堆栈机制下容易导致的并发问题  <br/>`关键词：sync.Mutex、锁复制、堆栈、goroutine`                                                               | 2   | ⭐⭐⭐ |
 | [第三十五篇](https://mp.weixin.qq.com/s/6RABbLbpgwHq6gRIiI3Xxw)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_35) | 93.循环依赖导致栈溢出 <br/>94.无法捕获子协程的panic  <br/>`关键词：循环依赖、堆栈、goroutine、panic`                                                               | 2   | ⭐⭐⭐ |
+| [第三十六篇](https://mp.weixin.qq.com/s/iDmztgNcQGbBKDRhqN90hA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_35) | 95.使用gops获取正在运行的Go进程 <br/>96.将静态文件编译到Go程序中  <br/> 97.Go语言通过多重赋值实现变量值交换  <br/>`关键词：gops工具、变量交换、编译`                                                               | 3   | ⭐⭐ |
 | DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                 |     |     |
 
-Total：94
+Total：97
 
 #### 同类内容分享
 
