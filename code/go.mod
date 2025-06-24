@@ -1,13 +1,12 @@
 module code
 
-go 1.23.0
-
-toolchain go1.23.7
+go 1.18
 
 require (
 	github.com/emirpasic/gods v1.18.1
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-co-op/gocron/v2 v2.5.0
+	github.com/go-playground/validator/v10 v10.20.0
 	google.golang.org/protobuf v1.34.1
 )
 
@@ -20,7 +19,6 @@ require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.20.0 // indirect
 	github.com/goccy/go-json v0.10.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/jonboulle/clockwork v0.4.0 // indirect

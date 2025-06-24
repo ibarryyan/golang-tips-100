@@ -89,9 +89,10 @@
 | [第三十五篇](https://mp.weixin.qq.com/s/6RABbLbpgwHq6gRIiI3Xxw)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_35) | 93.循环依赖导致栈溢出 <br/>94.无法捕获子协程的panic  <br/>`关键词：循环依赖、堆栈、goroutine、panic`                                                               | 2   | ⭐⭐⭐ |
 | [第三十六篇](https://mp.weixin.qq.com/s/iDmztgNcQGbBKDRhqN90hA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_36) | 95.使用gops获取正在运行的Go进程 <br/>96.将静态文件编译到Go程序中  <br/> 97.Go语言通过多重赋值实现变量值交换  <br/>`关键词：gops工具、变量交换、编译`                                                               | 3   | ⭐⭐ |
 | [第三十七篇](https://mp.weixin.qq.com/s/EA7wUi65WjUMas75MocpjA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_37) | 98.Go结构体非导出字段不会被序列化 <br/>99.Go语言的字符串是不可变  <br/> 100.代码块{}的作用范围  <br/>`关键词：序列化、字符串、代码块`                                                               | 3   | ⭐⭐ |
+| [第三十八篇](https://mp.weixin.qq.com/s/h_wqQn-fbrlAkGEomI_VCA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_38) | 101.new和make的区别 <br/>102.Go语言的string和byte  <br/>`关键词：make、new、string、byte`                                                            | 2  | ⭐⭐ |
 | DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                 |     |     |
 
-Total：100
+Total：102
 
 #### 同类内容分享
 
