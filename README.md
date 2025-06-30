@@ -126,6 +126,7 @@ Total：102
 | [快来看！你的Go代码还能更优雅](https://mp.weixin.qq.com/s/79B0ez6eGfTwaZWvh0-JcA)                                                                                                                                               | 面向对象                  | ⭐⭐  |
 | [Go语言的Fan-In并发模式](https://mp.weixin.qq.com/s/Q55cAsyJkCA7mAJBPtUy8w)                                                                                                                                               | 并发                  | ⭐⭐  |
 | [一文搞懂Go语言垃圾回收机制](https://mp.weixin.qq.com/s/ic0i7RhLxYJ53M0e1XJBOw)                                                                                                                                               | 垃圾回收                  | ⭐⭐⭐  |
+| [Go内存逃逸分析，真的很神奇吗？](https://mp.weixin.qq.com/s/oG-z1wlDxCOrG6TJPyfm9g)                                                                                                                                               | 内存逃逸               | ⭐⭐⭐  |
 
 ---
 
