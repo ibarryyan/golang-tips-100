@@ -28,6 +28,7 @@ type PingResult struct {
 	RTT      time.Duration
 	Error    error
 	Received bool
+	SendTime time.Time // 添加发送时间字段
 }
 
 // PingStats 表示ping统计信息
@@ -75,11 +76,16 @@ func (s *PingStats) print() {
 		avg = s.TotalRTT / time.Duration(s.Received)
 	}
 
+	// 转换为毫秒并保留两位小数
+	minMs := float64(s.MinRTT.Microseconds()) / 1000.0
+	avgMs := float64(avg.Microseconds()) / 1000.0
+	maxMs := float64(s.MaxRTT.Microseconds()) / 1000.0
+
 	fmt.Printf("\n--- %s (%s) ping statistics ---\n", s.Target, s.IP)
 	fmt.Printf("%d packets transmitted, %d received, %.2f%% packet loss\n",
 		s.Sent, s.Received, loss)
 	if s.Received > 0 {
-		fmt.Printf("rtt min/avg/max = %v/%v/%v\n", s.MinRTT, avg, s.MaxRTT)
+		fmt.Printf("rtt min/avg/max = %.2f/%.2f/%.2f ms\n", minMs, avgMs, maxMs)
 	}
 }
 
@@ -147,9 +153,16 @@ func (p *Pinger) setupIPv4(ipAddr *net.IPAddr) (*Pinger, error) {
 
 	p.conn = conn
 	p.ipv4Conn = ipv4.NewPacketConn(conn)
+
+	// 设置TTL
 	if err := p.ipv4Conn.SetTTL(p.TTL); err != nil {
 		conn.Close()
 		return nil, fmt.Errorf("无法设置TTL: %w", err)
+	}
+
+	// 设置控制消息标志，以便我们可以读取TTL
+	if err := p.ipv4Conn.SetControlMessage(ipv4.FlagTTL, true); err != nil {
+		log.Printf("警告: 无法设置IPv4控制消息标志: %v", err)
 	}
 
 	p.addr = &net.IPAddr{IP: ipAddr.IP}
@@ -165,9 +178,16 @@ func (p *Pinger) setupIPv6(ipAddr *net.IPAddr) (*Pinger, error) {
 
 	p.conn = conn
 	p.ipv6Conn = ipv6.NewPacketConn(conn)
+
+	// 设置Hop Limit
 	if err := p.ipv6Conn.SetHopLimit(p.TTL); err != nil {
 		conn.Close()
 		return nil, fmt.Errorf("无法设置Hop Limit: %w", err)
+	}
+
+	// 设置控制消息标志，以便我们可以读取Hop Limit
+	if err := p.ipv6Conn.SetControlMessage(ipv6.FlagHopLimit, true); err != nil {
+		log.Printf("警告: 无法设置IPv6控制消息标志: %v", err)
 	}
 
 	p.addr = &net.IPAddr{IP: ipAddr.IP}
@@ -178,15 +198,17 @@ func (p *Pinger) setupIPv6(ipAddr *net.IPAddr) (*Pinger, error) {
 func (p *Pinger) Run() {
 	defer p.conn.Close()
 
-	// 设置信号处理
+	// 设置信号处理，捕获更多类型的终止信号
 	c := make(chan os.Signal, 1)
-	signal.Notify(c, os.Interrupt)
+	signal.Notify(c, os.Interrupt, os.Kill)
 	go func() {
-		<-c
+		sig := <-c
+		fmt.Printf("\n收到信号 %v，正在停止...\n", sig)
 		p.Stop()
 	}()
 
-	fmt.Printf("PING %s (%s):\n", p.stats.Target, p.stats.IP)
+	fmt.Printf("PING %s (%s) %d(%d) bytes of data:\n",
+		p.stats.Target, p.stats.IP, p.Size, p.Size+8) // 8 bytes for ICMP header
 
 	// 启动接收goroutine
 	p.wg.Add(1)
@@ -202,6 +224,7 @@ func (p *Pinger) Run() {
 
 	// 等待完成
 	<-p.done
+	close(p.receiveChan) // 关闭接收通道，确保resultHandler能够退出
 	p.wg.Wait()
 	p.stats.print()
 }
@@ -209,7 +232,12 @@ func (p *Pinger) Run() {
 // Stop 停止ping操作
 func (p *Pinger) Stop() {
 	p.stopOnce.Do(func() {
-		close(p.done)
+		close(p.done) // 通知所有goroutine退出
+
+		// 设置一个短暂的超时，以便读取操作能够及时返回
+		if p.conn != nil {
+			p.conn.SetReadDeadline(time.Now().Add(100 * time.Millisecond))
+		}
 	})
 }
 
@@ -303,12 +331,22 @@ func (p *Pinger) sender() {
 				continue
 			}
 
+			// 记录发送时间
+			sendTime := time.Now()
+
+			// 将消息发送到sendChan通道
+			select {
+			case p.sendChan <- msg:
+			default:
+				// 如果通道已满，不阻塞
+			}
+
 			// 发送请求
-			start := time.Now()
 			if _, err := p.conn.WriteTo(wb, p.addr); err != nil {
 				p.receiveChan <- &PingResult{
-					Seq:   seq,
-					Error: fmt.Errorf("发送ICMP消息失败: %w", err),
+					Seq:      seq,
+					Error:    fmt.Errorf("发送ICMP消息失败: %w", err),
+					SendTime: sendTime,
 				}
 				continue
 			}
@@ -319,11 +357,12 @@ func (p *Pinger) sender() {
 			p.stats.mu.Unlock()
 
 			// 设置接收超时
-			deadline := start.Add(p.Timeout)
+			deadline := sendTime.Add(p.Timeout)
 			if err := p.conn.SetReadDeadline(deadline); err != nil {
 				p.receiveChan <- &PingResult{
-					Seq:   seq,
-					Error: fmt.Errorf("设置读取超时失败: %w", err),
+					Seq:      seq,
+					Error:    fmt.Errorf("设置读取超时失败: %w", err),
+					SendTime: sendTime,
 				}
 			}
 		}
@@ -336,6 +375,30 @@ func (p *Pinger) receiver() {
 
 	// 创建接收缓冲区
 	rb := make([]byte, 1500)
+
+	// 创建一个映射来存储发送时间
+	sendTimeMap := make(map[int]time.Time)
+	var mapMutex sync.Mutex
+
+	// 监听发送的消息，记录发送时间
+	// 将此goroutine添加到WaitGroup以确保程序退出时它也能正确退出
+	p.wg.Add(1)
+	go func() {
+		defer p.wg.Done()
+		for {
+			select {
+			case <-p.done:
+				return
+			case msg := <-p.sendChan:
+				if echo, ok := msg.Body.(*icmp.Echo); ok {
+					mapMutex.Lock()
+					sendTimeMap[echo.Seq] = time.Now()
+					mapMutex.Unlock()
+				}
+			}
+		}
+	}()
+
 	for {
 		select {
 		case <-p.done:
@@ -347,7 +410,33 @@ func (p *Pinger) receiver() {
 				continue
 			}
 
-			n, _, err := p.conn.ReadFrom(rb)
+			var n int
+			var err error
+			var ttl int = p.TTL // 默认使用设置的TTL值
+
+			// 根据IPv4/IPv6使用不同的读取方法来获取控制消息
+			if p.IPv6 {
+				if p.ipv6Conn != nil {
+					var cm *ipv6.ControlMessage
+					n, cm, _, err = p.ipv6Conn.ReadFrom(rb)
+					if err == nil && cm != nil {
+						ttl = cm.HopLimit
+					}
+				} else {
+					n, _, err = p.conn.ReadFrom(rb)
+				}
+			} else {
+				if p.ipv4Conn != nil {
+					var cm *ipv4.ControlMessage
+					n, cm, _, err = p.ipv4Conn.ReadFrom(rb)
+					if err == nil && cm != nil {
+						ttl = cm.TTL
+					}
+				} else {
+					n, _, err = p.conn.ReadFrom(rb)
+				}
+			}
+
 			if err != nil {
 				if netErr, ok := err.(net.Error); ok && netErr.Timeout() {
 					// 超时，继续等待下一个包
@@ -374,18 +463,7 @@ func (p *Pinger) receiver() {
 				continue
 			}
 
-			// 提取TTL
-			var ttl int
-			if p.IPv6 {
-				// 对于IPv6，我们无法直接从包中获取hop limit
-				ttl = p.TTL
-			} else {
-				// 尝试从IPv4头获取TTL
-				ttl = p.TTL // 默认值
-				if p.ipv4Conn != nil {
-					// 这里可以尝试获取实际TTL，但需要更复杂的处理
-				}
-			}
+			// TTL已经在ReadFrom时获取
 
 			// 处理响应
 			switch rm.Type {
@@ -399,13 +477,25 @@ func (p *Pinger) receiver() {
 					continue // 忽略不匹配的响应
 				}
 
+				// 获取发送时间并计算RTT
+				mapMutex.Lock()
+				sendTime, exists := sendTimeMap[echoReply.Seq]
+				if !exists {
+					sendTime = receiveTime.Add(-p.Timeout) // 如果找不到发送时间，使用估计值
+				}
+				delete(sendTimeMap, echoReply.Seq) // 清理已使用的条目
+				mapMutex.Unlock()
+
+				rtt := receiveTime.Sub(sendTime)
+
 				// 创建结果
 				p.receiveChan <- &PingResult{
 					Seq:      echoReply.Seq,
 					Size:     len(echoReply.Data),
 					TTL:      ttl,
-					RTT:      receiveTime.Sub(receiveTime.Add(-p.Timeout)),
+					RTT:      rtt,
 					Received: true,
+					SendTime: sendTime,
 				}
 			default:
 				// 忽略其他类型的ICMP消息
@@ -430,8 +520,10 @@ func (p *Pinger) resultHandler() {
 
 			if result.Received {
 				p.stats.update(*result)
-				fmt.Printf("%d bytes from %s: icmp_seq=%d ttl=%d time=%v\n",
-					result.Size, p.stats.IP, result.Seq, result.TTL, result.RTT)
+				// 格式化RTT为毫秒，保留两位小数
+				rttMs := float64(result.RTT.Microseconds()) / 1000.0
+				fmt.Printf("%d bytes from %s: icmp_seq=%d ttl=%d time=%.2f ms\n",
+					result.Size, p.stats.IP, result.Seq, result.TTL, rttMs)
 			}
 		}
 	}
