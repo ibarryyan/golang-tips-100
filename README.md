@@ -93,13 +93,15 @@
 100+
 
 
-| 标题                                                                                                                                                                                                        | 代码                                                                            | 关键词                                                                                                                                         | 数量  | 难度  |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
-| [第三十八篇](https://mp.weixin.qq.com/s/h_wqQn-fbrlAkGEomI_VCA)                                                                                                                                                | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_38) | 101.new和make的区别 <br/>102.Go语言的string和byte  <br/>`关键词：make、new、string、byte`                                                                  | 2   | ⭐⭐  |
-| DOING                                                                                                                                                                                                     |                                                                               |                                                                                                                                             |     |     |
+| 标题                                                         | 代码                                                                            | 关键词                                                                                             | 数量 | 难度  |
+|------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|----| --- |
+| [第三十八篇](https://mp.weixin.qq.com/s/h_wqQn-fbrlAkGEomI_VCA) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_38) | 101.new和make的区别 <br/>102.Go语言的string和byte  <br/>`关键词：make、new、string、byte`                      | 2  | ⭐⭐  |
+| [第三十九篇](https://mp.weixin.qq.com/s/dMmARoyPQCiZLzqnLHSseA) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_39) | 103.context的超时控制是如何实现的？ <br/>104.slice不是并发安全的  <br/>105.Go语言中的CAS  <br/>`关键词：context、slice、cas` | 3  | ⭐⭐⭐  |
+| [第四十篇](https://mp.weixin.qq.com/s/lNdgFov23DrG5J-82sE71Q)  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_40) | 106.子协程panic的后果与解决方案 <br/>107.Go语言中map解决哈希冲突的机制 <br/>`关键词：子协程、map`                              | 2  | ⭐⭐  |
+| DOING                                                      |                                                                               |                                                                                                 |    |     |
 
 
-Total：102
+Total：107
 
 #### 同类内容分享
 
