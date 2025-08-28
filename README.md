@@ -139,6 +139,7 @@ Total：109
 | [Go内存逃逸分析，真的很神奇吗？](https://mp.weixin.qq.com/s/oG-z1wlDxCOrG6TJPyfm9g)                                                                                                                                              | 内存逃逸                  | ⭐⭐⭐ |
 | [Go数据类型，还有哪些你不知道的点？](https://mp.weixin.qq.com/s/c_0PO6MAalPfQsxeFF7m4g)                                                                              | 数据类型                  | ⭐⭐⭐ |
 | [Go环境变量那么多，该如何配置？](https://mp.weixin.qq.com/s/_QZhVpYG64Q4V17RDGGc8g)                                                                              | 环境安装                  | ⭐⭐ |
+| [Go语言中slice的扩容与并发安全](https://cloud.tencent.com/developer/article/2560838)                                                                              | 切片、并发                  | ⭐⭐⭐ |
 
 ---
 
