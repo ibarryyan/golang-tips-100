@@ -41,7 +41,7 @@
 
 #### 专栏大纲
 
-![image-20231112190005980](img/main-30end.png)
+![image-20231112190005980](img/main-34end.png)
 
 > **在线地址（更新到第30篇）**：[Go小技巧&易错点100例专栏](https://www.processon.com/view/link/66913a1de7d7970dad42d812)
 
