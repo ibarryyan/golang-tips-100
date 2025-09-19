@@ -108,10 +108,11 @@
 | [第四十篇](https://mp.weixin.qq.com/s/lNdgFov23DrG5J-82sE71Q)  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_40) | 106.子协程panic的后果与解决方案 <br/>107.Go语言中map解决哈希冲突的机制 <br/>`关键词：子协程、map`                              | 2  | ⭐⭐  |
 | [第四十一篇](https://mp.weixin.qq.com/s/0WiTpXaOkkPNlpMcn3hxFQ) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_41) | 108.Go语言的空值 <br/>109.flag包使用过程中需要注意的问题 <br/>`关键词：空值、flag`                                       | 2  | ⭐⭐⭐  |
 | [第四十二篇](https://mp.weixin.qq.com/s/Mms6laMLRWGaKgVqshfJoQ) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_42) | 110.Go语言进行sha256加密 <br/>111.JSON解析时int溢出问题 <br/>112.time.After的内存泄漏 <br/>`关键词：加密、内存`                                       | 3  | ⭐⭐⭐  |
+| [第四十三篇](https://mp.weixin.qq.com/s/_n5Tgz7KHmixpwyngB7hew) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_43) | 113.select和for循环的死锁问题 <br/>114.defer改变函数返回值 <br/>115.如何优雅地停止 goroutine <br/>`关键词：select、defer、goroutine`                                       | 3  | ⭐⭐⭐  |
 | DOING                                                      |                                                                               |                                                                                                 |    |     |
 
 
-Total：112
+Total：115
 
 #### 同类内容分享
 
