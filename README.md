@@ -101,18 +101,19 @@
 100+
 
 
-| 标题                                                         | 代码                                                                            | 关键词                                                                                             | 数量 | 难度  |
-|------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|----| --- |
-| [第三十八篇](https://mp.weixin.qq.com/s/h_wqQn-fbrlAkGEomI_VCA) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_38) | 101.new和make的区别 <br/>102.Go语言的string和byte  <br/>`关键词：make、new、string、byte`                      | 2  | ⭐⭐  |
-| [第三十九篇](https://mp.weixin.qq.com/s/dMmARoyPQCiZLzqnLHSseA) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_39) | 103.context的超时控制是如何实现的？ <br/>104.slice不是并发安全的  <br/>105.Go语言中的CAS  <br/>`关键词：context、slice、cas` | 3  | ⭐⭐⭐  |
-| [第四十篇](https://mp.weixin.qq.com/s/lNdgFov23DrG5J-82sE71Q)  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_40) | 106.子协程panic的后果与解决方案 <br/>107.Go语言中map解决哈希冲突的机制 <br/>`关键词：子协程、map`                              | 2  | ⭐⭐  |
-| [第四十一篇](https://mp.weixin.qq.com/s/0WiTpXaOkkPNlpMcn3hxFQ) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_41) | 108.Go语言的空值 <br/>109.flag包使用过程中需要注意的问题 <br/>`关键词：空值、flag`                                       | 2  | ⭐⭐⭐  |
-| [第四十二篇](https://mp.weixin.qq.com/s/Mms6laMLRWGaKgVqshfJoQ) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_42) | 110.Go语言进行sha256加密 <br/>111.JSON解析时int溢出问题 <br/>112.time.After的内存泄漏 <br/>`关键词：加密、内存`                                       | 3  | ⭐⭐⭐  |
-| [第四十三篇](https://mp.weixin.qq.com/s/_n5Tgz7KHmixpwyngB7hew) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_43) | 113.select和for循环的死锁问题 <br/>114.defer改变函数返回值 <br/>115.如何优雅地停止 goroutine <br/>`关键词：select、defer、goroutine`                                       | 3  | ⭐⭐⭐  |
-| DOING                                                      |                                                                               |                                                                                                 |    |     |
+| 标题                                                         | 代码                                                                            | 关键词                                                                                                                                                                                     | 数量 | 难度  |
+|------------------------------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----| --- |
+| [第三十八篇](https://mp.weixin.qq.com/s/h_wqQn-fbrlAkGEomI_VCA) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_38) | 101.new和make的区别 <br/>102.Go语言的string和byte  <br/>`关键词：make、new、string、byte`                                                                                                              | 2  | ⭐⭐  |
+| [第三十九篇](https://mp.weixin.qq.com/s/dMmARoyPQCiZLzqnLHSseA) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_39) | 103.context的超时控制是如何实现的？ <br/>104.slice不是并发安全的  <br/>105.Go语言中的CAS  <br/>`关键词：context、slice、cas`                                                                                         | 3  | ⭐⭐⭐  |
+| [第四十篇](https://mp.weixin.qq.com/s/lNdgFov23DrG5J-82sE71Q)  | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_40) | 106.子协程panic的后果与解决方案 <br/>107.Go语言中map解决哈希冲突的机制 <br/>`关键词：子协程、map`                                                                                                                      | 2  | ⭐⭐  |
+| [第四十一篇](https://mp.weixin.qq.com/s/0WiTpXaOkkPNlpMcn3hxFQ) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_41) | 108.Go语言的空值 <br/>109.flag包使用过程中需要注意的问题 <br/>`关键词：空值、flag`                                                                                                                               | 2  | ⭐⭐⭐  |
+| [第四十二篇](https://mp.weixin.qq.com/s/Mms6laMLRWGaKgVqshfJoQ) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_42) | 110.Go语言进行sha256加密 <br/>111.JSON解析时int溢出问题 <br/>112.time.After的内存泄漏 <br/>`关键词：加密、内存`                                                                                                    | 3  | ⭐⭐⭐  |
+| [第四十三篇](https://mp.weixin.qq.com/s/_n5Tgz7KHmixpwyngB7hew) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_43) | 113.select和for循环的死锁问题 <br/>114.defer改变函数返回值 <br/>115.如何优雅地停止 goroutine <br/>`关键词：select、defer、goroutine`                                                                                | 3  | ⭐⭐⭐  |
+| [第四十四篇](https://mp.weixin.qq.com/s/xPQT_uXb_piPY3vRZhtidw) | [code](https://github.com/ibarryyan/golang-tips-100/tree/master/code/code_44) | 116.死锁问题：写入缓冲区满了，读取方无法读取 <br/>117.错误地不关闭 Channel，导致接收方无法判断何时停止 <br/>118.错误地在接收端关闭 Channel，导致 panic <br/>119.读取已关闭的 Channel 时处理不当 <br/>120.向已关闭的 Channel 写入数据导致 panic <br/>`关键词：channel` | 5  | ⭐⭐⭐  |
+| DOING                                                      |                                                                               |                                                                                                                                                                                         |    |     |
 
 
-Total：115
+Total：120
 
 #### 同类内容分享
 
