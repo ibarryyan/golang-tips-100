@@ -29,11 +29,11 @@
 
 **AI时代Go语言学习路线：**[博客链接](https://mp.weixin.qq.com/s/5x24Nhbxtjkcjv7xuJWPng)
 
-<div align="center">
+<!-- <div align="center">
    <img src="img/way.png" width="800"  alt="" />
-</div>
+</div> -->
 
-相关学习资源：
+**相关学习资源：**
 
 - [Learning-golang-2024](https://www.bytesizego.com/blog/learning-golang-2024)
 
