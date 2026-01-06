@@ -237,6 +237,7 @@ Total：120
 | [SDK Demo](project/http-sdk.md)                    | SDK设计、HTTP | ⭐   |
 | [Beego RequestId 中间件](project/beego-request-id.md) | Beego      | ⭐   |
 | [Github OAuth Demo](project/oauth-demo.md)         | OAuth2.0   | ⭐   |
+| [protobuf-msg-reader](project/protobuf-msg-reader.md)         | JavaScript  | ⭐   |
 
 ---
 
