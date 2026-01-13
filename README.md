@@ -127,6 +127,8 @@ Total：120
 
 [Go优化指南（网页版）](https://goperf.dev/)
 
+[Golang Weekly](https://golangweekly.com/)
+
 ---
 
 ### Go基础知识
