@@ -21,3 +21,5 @@ venv/
 
 # Logs
 *.log
+
+py-tips-100/*/*/README.md
