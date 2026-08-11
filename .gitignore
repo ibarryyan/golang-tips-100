@@ -1,0 +1,23 @@
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Build output
+*.exe
+*.out
+*.test
+
+# Go
+vendor/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
