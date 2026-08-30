@@ -44,10 +44,10 @@
 
 | 标题 | 文章 | 代码 | 关键词 | 数量 | 难度 |
 | --- | --- | --- | --- | --- | --- |
-| 开篇词 | [AI时代，我们重新出发：从Go小技巧到Python小技巧](blog/opening/README.md) | - | Go小技巧、Python小技巧、AI时代、重新出发 | 0 | ⭐ |
-| 第一篇 | [变量、赋值与基础语法](blog/py_01/README.md) | [code](blog/py_01) | 1.动态类型不是没有类型<br/>2.缩进是语法的一部分<br/>3.链式赋值和解包赋值<br/>4.`is` 和 `==` 的区别<br/>`关键词：变量、缩进、赋值、对象身份` | 4 | ⭐ |
-| 第二篇 | [列表、字典与可变对象](blog/py_02/README.md) | [code](blog/py_02) | 5.列表复制不能只用赋值<br/>6.函数默认参数不要使用可变对象<br/>7.遍历列表时不要直接删除元素<br/>8.字典取值推荐使用 `get` 和 `setdefault`<br/>`关键词：list、dict、可变对象` | 4 | ⭐⭐ |
-| 第三篇 | [字符串、数字与常用内置能力](blog/py_03/README.md) | [code](blog/py_03) | 9.字符串拼接优先使用 `join` 或 f-string<br/>10.`len()` 统计的是字符数量不是字节数量<br/>11.浮点数计算存在精度问题<br/>12.真值判断要理解空值规则<br/>`关键词：str、float、bool、内置函数` | 4 | ⭐ |
+| 开篇词 | [AI时代，我们重新出发：从Go小技巧到Python小技巧](https://mp.weixin.qq.com/s/XrHQlNjgsVNeDqTtUunjLA) | - | Go小技巧、Python小技巧、AI时代、重新出发 | 0 | ⭐ |
+| 第一篇 | [变量、赋值与基础语法](https://mp.weixin.qq.com/s/-qJpQ0HXfGPYmP_GWjtSbg) | [code](blog/py_01) | 1.动态类型不是没有类型<br/>2.缩进是语法的一部分<br/>3.链式赋值和解包赋值<br/>4.`is` 和 `==` 的区别<br/>`关键词：变量、缩进、赋值、对象身份` | 4 | ⭐ |
+| 第二篇 | [列表、字典与可变对象](https://mp.weixin.qq.com/s/qQN4sFmSJAGjPRSBvb4PmA) | [code](blog/py_02) | 5.列表复制不能只用赋值<br/>6.函数默认参数不要使用可变对象<br/>7.遍历列表时不要直接删除元素<br/>8.字典取值推荐使用 `get` 和 `setdefault`<br/>`关键词：list、dict、可变对象` | 4 | ⭐⭐ |
+| 第三篇 | [字符串、数字与常用内置能力](https://mp.weixin.qq.com/s/L-XE2H9EzEqDGptMWc94lg) | [code](blog/py_03) | 9.字符串拼接优先使用 `join` 或 f-string<br/>10.`len()` 统计的是字符数量不是字节数量<br/>11.浮点数计算存在精度问题<br/>12.真值判断要理解空值规则<br/>`关键词：str、float、bool、内置函数` | 4 | ⭐ |
 | 第四篇 | [函数、异常与文件处理](blog/py_04/README.md) | [code](blog/py_04) | 13.函数返回多个值本质是 tuple<br/>14.异常不要直接吞掉<br/>15.文件读写优先使用 `with`<br/>16.路径处理优先使用 `pathlib`<br/>`关键词：函数、异常、文件、pathlib` | 4 | ⭐⭐ |
 | 第五篇 | [闭包、lambda与作用域](blog/py_05/README.md) | [code](blog/py_05) | 17.闭包捕获的是变量引用而非值<br/>18.lambda是匿名函数但能力有限<br/>19.global和nonlocal的使用场景<br/>20.列表推导式vs生成器表达式<br/>`关键词：闭包、lambda、作用域、列表推导式、生成器` | 4 | ⭐⭐ |
 | 第六篇 | [面向对象基础](blog/py_06/README.md) | [code](blog/py_06) | 21.class属性与实例属性的区别<br/>22.`__init__`不是构造函数，`__new__`才是<br/>23.私有变量靠约定不靠强制<br/>24.魔术方法`__str__`和`__repr__`的区别<br/>`关键词：class、实例属性、魔术方法、__repr__` | 4 | ⭐⭐ |
